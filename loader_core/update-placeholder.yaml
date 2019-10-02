@@ -1,0 +1,24 @@
+﻿### INFO ###
+
+developer: gw2al team
+website: https://github.com/gw2-addon-loader/loader-core
+addon_name: loader_core
+description: "Core addon loading library for Guild wars 2. \n\n Provides addon loading functions and addon API"
+tooltip: core addon loading & communication library - by gw2al team
+
+### DOWNLOADING/INSTALLATION ###
+
+host_type: github
+host_url: https://github.com/gw2-addon-loader/loader-core/releases/latest
+# for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
+version_url: 
+# archive or .dll
+download_type: archive
+# binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
+install_mode: d3d9
+
+### CONFIGURATION ###
+
+requires: 
+conflicts:
+    - gw2hook
