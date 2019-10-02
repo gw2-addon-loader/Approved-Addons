@@ -32,7 +32,7 @@ install_mode: binary
 
 ### CONFIGURATION ###
 # a list of all other add-ons required for this add-on to function
-requires:
+requires: loader_core, d3d9_wrapper
 # a list of all add-ons that prevent this add-on from functioning properly
 conflicts:
     - gw2hook
