@@ -5,35 +5,34 @@
 
 ### USER-FACING INFO ###
 # developer of the add-on
-developer: Megai2
+developer: Greaka
 # website where more information about the add-on can be found
-website: https://github.com/megai2/d912pxy
+website: https://github.com/blish-hud/arcdps-bhud
 # name of the add-on
-addon_name: d912pxy
+addon_name: ArcDPS Blish HUD Integration
 # descriptive text for the addon
-description: D912pxy is a tool that allows Guild Wars 2 to use DirectX 12 by translating calls for DirectX 9 to DirectX 12. What should you expect from this?
-    More stable FPS in general - Higher FPS if you have free CPU and GPU power - Lower FPS if you have no extra CPU power / GPU power - Higher RAM and VRAM usage - 
-    Those using an eGPU can expect big improvements due to GPU-CPU bandwith optimization - Some visual bugs, the most notable being character portraits glitching
+description: This addon provides data from the Arcdps Combat API to the Blish HUD overlay, where it can be used by different Blish HUD modules for optimization and additional functionality.
 # tooltip - basically description but in brief
-tooltip: Translates DirectX 9 calls to DirectX 12 for performance improvements - by Megai2
+tooltip: Uses the ArcDPS Combat API to provide data to Blish HUD - by Greaka
 
 ### DOWNLOADING/INSTALLATION ###
 # github or standalone
 host_type: github
 # either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
 # latter is a direct download link to a file/archive
-host_url: https://api.github.com/repos/megai2/d912pxy/releases/latest
+host_url: https://api.github.com/repositories/187708533/releases/latest
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
 version_url: 
 # archive or .dll
 download_type: archive
 # binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
-install_mode: binary
+install_mode: arc
+# plugin name- only for arc-dependent plugins
+plugin_name: arcdps_bhud.dll
 
 ### CONFIGURATION ###
 # a list of all other add-ons required for this add-on to function
 requires:
-    - d3d9_wrapper
+    - arcdps
 # a list of all add-ons that prevent this add-on from functioning properly
 conflicts:
-    - gw2hook
