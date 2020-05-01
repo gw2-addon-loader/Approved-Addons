@@ -40,3 +40,6 @@ requires:
     - arcdps
 # a list of all add-ons that prevent this add-on from functioning properly
 conflicts:
+# additional flags
+additional_flags:
+    - self-updating
