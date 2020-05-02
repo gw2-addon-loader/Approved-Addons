@@ -43,3 +43,4 @@ conflicts:
 # additional flags
 additional_flags:
     - self-updating
+    - obscured-filename
