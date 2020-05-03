@@ -7,7 +7,7 @@
 # developer of the add-on
 developer: e-scrape-artist
 # website where more information about the add-on can be found
-website: gw2archive.eu
+website: https://buildpad.gw2archive.eu
 # name of the add-on
 addon_name: BuildPad
 # descriptive text for the addon
