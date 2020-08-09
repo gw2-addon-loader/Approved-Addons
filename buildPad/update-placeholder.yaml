@@ -11,10 +11,8 @@ website: https://buildpad.gw2archive.eu
 # name of the add-on
 addon_name: BuildPad
 # descriptive text for the addon
-description: 
-    "\"It is essentially a glorified notepad for your builds, allowing you to organize a list of saved builds and copy them with one click.
-    It is a plugin to ArcDPS, without the latter it won't work, but then again if you haven't been using ArcDPS for templates already, you probably have no immediate use for this plugin either
-    It detects your ArcDPS templates and converts (automatically and/or manually) them to GW2 templates. Your old gear templates, which cannot be pasted into GW2, can however be previewed inside the plugin so you can remind yourself which items and stats you had saved.\""
+description:
+    "A companion plugin to ArcDPS that allows you to organize a list of saved builds and copy them with one click.\n\nIt detects your ArcDPS templates and converts them (automatically and/or manually) to GW2 templates. Your old gear templates, which cannot be pasted into GW2, can be previewed inside the plugin so you can remind yourself which items and stats you had saved."
 
 # tooltip - basically description but in brief
 tooltip: Offline build storage
@@ -26,7 +24,7 @@ host_type: standalone
 # latter is a direct download link to a file/archive
 host_url: https://buildpad.gw2archive.eu/versions/latest
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
-version_url: 
+version_url:
 # archive or .dll
 download_type: .dll
 # binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
