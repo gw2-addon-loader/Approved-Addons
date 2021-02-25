@@ -1,0 +1,38 @@
+# Update files are intended to provide information for:
+# Installation
+# Plugin configuration
+# User-Facing information displayed on the addon manager UI
+
+### USER-FACING INFO ###
+# developer of the add-on
+developer: Kappa322
+# website where more information about the add-on can be found
+website: https://github.com/Krappa322/arcdps_healing_stats
+# name of the add-on
+addon_name: ArcDPS Healing Stats
+# descriptive text for the addon
+description: "Shows personal healing statistics based on your local stats (i.e. your own healing output).\n\nThis includes outgoing healing per target and per skill, as well as filtering to only include your own subgroup/squad and to exclude minions"
+# tooltip - basically description but in brief
+tooltip: Shows statistics for personal healing done
+
+### DOWNLOADING/INSTALLATION ###
+# github or standalone
+host_type: github
+# either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
+# latter is a direct download link to a file/archive
+host_url: https://api.github.com/repos/Krappa322/arcdps_healing_stats/releases/latest
+# for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
+version_url:
+# archive or .dll
+download_type: .dll
+# binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
+install_mode: arc
+#
+plugin_name: arcdps_healing_stats.dll
+
+### CONFIGURATION ###
+# a list of all other add-ons required for this add-on to function
+requires:
+    - arcdps
+# a list of all add-ons that prevent this add-on from functioning properly
+conflicts:
