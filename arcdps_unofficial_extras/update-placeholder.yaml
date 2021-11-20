@@ -11,7 +11,7 @@ website: https://github.com/Krappa322/arcdps_unofficial_extras_releases/
 # name of the add-on
 addon_name: ArcDPS Unofficial Extras
 # descriptive text for the addon
-description: This plugin provides additional information to other plugins. Also it has several little features itself.
+description: "This plugin provides additional information to other plugins. For example, it enables the killproof.me addon to display players who are not in the same instance.\n\nIt also has some small features by itself, such as mouse clipping, which prevents accidentally interacting with things while panning the camera"
 # tooltip - basically description but in brief
 tooltip: Additional features for arcdps and plugins
 
