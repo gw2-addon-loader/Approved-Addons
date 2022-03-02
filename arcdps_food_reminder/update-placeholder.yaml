@@ -5,30 +5,30 @@
 
 ### USER-FACING INFO ###
 # developer of the add-on
-developer: knoxfighter, original by MarsEdge
+developer: Zerthox
 # website where more information about the add-on can be found
-website: https://github.com/knoxfighter/GW2-ArcDPS-Boon-Table
+website: https://github.com/zerthox/arcdps-food-reminder
 # name of the add-on
-addon_name: ArcDPS Boon Table
+addon_name: ArcDPS Food Reminder
 # descriptive text for the addon
-description: Displays squad boon uptime for a number of boons and includes information such as individual player boon uptime and their subsquad.
+description: Displays a reminder for your own Food/Utility item buffs. Adds an overview of Food & Utility item buffs on your Party/Squad and own characters.
 # tooltip - basically description but in brief
-tooltip: by knoxfighter, original by MarsEdges
+tooltip: Track Food & Utility buffs
 
 ### DOWNLOADING/INSTALLATION ###
 # github or standalone
 host_type: github
 # either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
 # latter is a direct download link to a file/archive
-host_url: https://api.github.com/repos/knoxfighter/GW2-ArcDPS-Boon-Table/releases/latest
+host_url: https://api.github.com/repos/zerthox/arcdps-food-reminder/releases/latest
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
 version_url:
 # archive or .dll
 download_type: .dll
 # binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
 install_mode: arc
-#
-plugin_name: d3d9_arcdps_boontable.dll
+# plugin name- only for arc-dependent plugins
+plugin_name: arcdps_food_reminder.dll
 
 ### CONFIGURATION ###
 # a list of all other add-ons required for this add-on to function

@@ -1,26 +1,26 @@
-﻿# Update files are intended to provide information for:
+# Update files are intended to provide information for:
 # Installation
 # Plugin configuration
 # User-Facing information displayed on the addon manager UI
 
 ### USER-FACING INFO ###
 # developer of the add-on
-developer: knoxfighter, original by MarsEdge
+developer: knoxfighter
 # website where more information about the add-on can be found
-website: https://github.com/knoxfighter/GW2-ArcDPS-Boon-Table
+website: https://github.com/knoxfighter/arcdps-killproof.me-plugin
 # name of the add-on
-addon_name: ArcDPS Boon Table
+addon_name: ArcDPS Killproof-me Plugin
 # descriptive text for the addon
-description: Displays squad boon uptime for a number of boons and includes information such as individual player boon uptime and their subsquad.
+description: This addon shows the killproofs of players, that are registered on killproof.me
 # tooltip - basically description but in brief
-tooltip: by knoxfighter, original by MarsEdges
+tooltip: Shows killproof.me data ingame
 
 ### DOWNLOADING/INSTALLATION ###
 # github or standalone
 host_type: github
 # either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
 # latter is a direct download link to a file/archive
-host_url: https://api.github.com/repos/knoxfighter/GW2-ArcDPS-Boon-Table/releases/latest
+host_url: https://api.github.com/repos/knoxfighter/arcdps-killproof.me-plugin/releases/latest
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
 version_url:
 # archive or .dll
@@ -28,7 +28,7 @@ download_type: .dll
 # binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
 install_mode: arc
 #
-plugin_name: d3d9_arcdps_boontable.dll
+plugin_name: d3d9_arcdps_killproof_me.dll
 
 ### CONFIGURATION ###
 # a list of all other add-ons required for this add-on to function
