@@ -1,0 +1,42 @@
+﻿# Update files are intended to provide information for:
+# Installation
+# Plugin configuration
+# User-Facing information displayed on the addon manager UI
+
+### USER-FACING INFO ###
+# developer of the add-on
+developer: Deathmax
+# website where more information about the add-on can be found
+website: https://github.com/cheahjs/arcdps-food-reminder
+# name of the add-on
+addon_name: ArcDPS Squad Ready Plugin
+# descriptive text for the addon
+description: |
+    Plays audio notifications when a squad ready check is started and completed.
+
+    The ArcDPS Unofficial Extras plugin is required to be installed to function correctly.
+# tooltip - basically description but in brief
+tooltip: Squad Ready audio notifications
+
+### DOWNLOADING/INSTALLATION ###
+# github or standalone
+host_type: github
+# either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
+# latter is a direct download link to a file/archive
+host_url: https://api.github.com/repos/cheahjs/arcdps-squad-ready-plugin/releases/latest
+# for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
+version_url:
+# archive or .dll
+download_type: .dll
+# binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
+install_mode: arc
+# plugin name- only for arc-dependent plugins
+plugin_name: arcdps_squad_ready.dll
+
+### CONFIGURATION ###
+# a list of all other add-ons required for this add-on to function
+requires:
+    - arcdps
+    - arcdps_unofficial_extras
+# a list of all add-ons that prevent this add-on from functioning properly
+conflicts:
