@@ -22,7 +22,7 @@ host_type: standalone
 # latter is a direct download link to a file/archive
 host_url: https://www.deltaconnected.com/arcdps/gw2addon_arcdps.dll
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
-version_url: https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum
+version_url: https://www.deltaconnected.com/arcdps/x64/d3d11.dll.md5sum
 # archive or .dll
 download_type: .dll
 # binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
