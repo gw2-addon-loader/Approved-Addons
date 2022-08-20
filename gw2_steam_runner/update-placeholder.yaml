@@ -1,0 +1,35 @@
+﻿# Update files are intended to provide information for:
+# Installation
+# Plugin configuration
+# User-Facing information displayed on the addon manager UI
+
+### USER-FACING INFO ###
+# developer of the add-on
+developer: vimodev
+# website where more information about the add-on can be found
+website: https://github.com/vimodev/GW2SteamRunner
+# name of the add-on
+addon_name: GW2 Steam Runner
+# descriptive text for the addon
+description: "Tells Steam that Guild Wars 2 Steam edition is running even though running version is not through Steam. Helps boost Steam player counts. REQUIREMENTS: Steam must be running and the logged in Steam account must have Guild Wars 2 in their account library (not necessarily installed)."
+# tooltip - basically description but in brief
+tooltip: Launches steam idle to fool Steam into thinking Guild Wars 2 is running through Steam.
+
+### DOWNLOADING/INSTALLATION ###
+# github or standalone
+host_type: github
+# either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
+# latter is a direct download link to a file/archive
+host_url: https://api.github.com/repos/vimodev/gw2steamrunner/releases/latest
+# for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
+version_url:
+# archive or .dll
+download_type: archive
+# binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
+install_mode: binary
+
+### CONFIGURATION ###
+# a list of all other add-ons required for this add-on to function
+requires:
+# a list of all add-ons that prevent this add-on from functioning properly
+conflicts:
