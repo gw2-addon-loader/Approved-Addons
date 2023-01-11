@@ -9,7 +9,7 @@ developer: typedeck0
 # website where more information about the add-on can be found
 website: https://github.com/typedeck0/Know-thy-enemy
 # name of the add-on
-addon_name: Know thy enemy
+addon_name: [WvW] Know thy enemy
 # descriptive text for the addon
 description: "Tired of commanders saying \"They're twice our size!\"? Well now you can put a number on it!\n\nCounts the amount and type of player enemies (that your squad hits or is hit by) in an arcdps fight instance (resets when arcdps does)."
 # tooltip - basically description but in brief
