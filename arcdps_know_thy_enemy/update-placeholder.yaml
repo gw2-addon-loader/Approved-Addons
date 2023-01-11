@@ -20,7 +20,7 @@ tooltip: Counts the amount and type of player enemies in a fight
 host_type: github
 # either github API url or direct URL to file/archive - former is parsed to find latest version and download link,
 # latter is a direct download link to a file/archive
-host_url: https://github.com/typedeck0/Know-thy-enemy/releases/latest
+host_url: https://api.github.com/repos/typedeck0/Know-thy-enemy/releases/latest
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
 version_url:
 # archive or .dll
