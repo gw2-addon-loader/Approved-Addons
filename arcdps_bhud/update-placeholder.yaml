@@ -24,7 +24,7 @@ host_url: https://api.github.com/repositories/187708533/releases/latest
 # for md5sum files and things of that nature; files that exist solely to show what the latest version is. Standalone only.
 version_url: 
 # archive or .dll
-download_type: archive
+download_type: .dll
 # binary or d3d9 - binary leaves plugin name as-is, d3d9 means filename may be changed for chainloading
 install_mode: arc
 # plugin name- only for arc-dependent plugins
